@@ -1,0 +1,52 @@
+@startuml
+
+class Employer {
+  + id : integer
+  --
+  name : String
+  size : String
+  hq_location : String
+  company_type : String
+  description : String
+  website_url : String
+  image_url : String
+  map_url : String
+}
+
+class Job {
+  + id : integer
+  --
+  title : String
+  job_type : String
+  last_updated : String
+  salary : String
+  description : String
+  image_url : String
+  posting_url : String
+  employer_id : integer
+}
+
+class Skill {
+  + id : integer
+  --
+  name : String
+}
+
+class Resource {
+  + id : integer
+  --
+  name : String
+  price : String
+  instructor : String
+  locale : String
+  headline : String
+  image_url : String
+  course_url : String
+}
+
+Employer "1" -- "0..*" Job : has >
+Job "1" -- "*" Skill : requires >
+Resource "*" -- "0..*" Skill : teaches >
+Employer "*" -- "0..*" Skill : needs >
+
+@enduml

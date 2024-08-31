@@ -1,0 +1,462 @@
+1 . processing job with title Clinical Manager from company FRESENIUS
+        adding fresenius to checked_companies
+        company Hochschule Fresenius found in API, so trying to add to DB!
+mismatch between names, c_api: Hochschule Fresenius j_api: FRESENIUS
+populating data for company Hochschule Fresenius
+        now trying to add JOB Clinical Manager to database for company FRESENIUS
+        company not found in database, so skipping job!
+1 . processing job with title Clinical Manager from company FRESENIUS
+        now trying to add JOB Clinical Manager to database for company FRESENIUS
+        company not found in database, so skipping job!
+1 . processing job with title Phlebotomist I from company Actalent
+        adding actalent to checked_companies
+        company act! executive search (currently Boutique Executive Search) found in API, so trying to add to DB!
+mismatch between names, c_api: act! executive search (currently Boutique Executive Search) j_api: Actalent
+populating data for company act! executive search (currently Boutique Executive Search)
+        now trying to add JOB Phlebotomist I to database for company Actalent
+        company not found in database, so skipping job!
+1 . processing job with title Phlebotomist from company Actalent
+        now trying to add JOB Phlebotomist to database for company Actalent
+        company not found in database, so skipping job!
+1 . processing job with title Phlebotomist I from company Actalent
+        now trying to add JOB Phlebotomist I to database for company Actalent
+        company not found in database, so skipping job!
+1 . processing job with title Registered Nurse - RN from company FRESENIUS
+        now trying to add JOB Registered Nurse - RN to database for company FRESENIUS
+        company not found in database, so skipping job!
+1 . processing job with title Registered Nurse - RN from company FRESENIUS
+        now trying to add JOB Registered Nurse - RN to database for company FRESENIUS
+        company not found in database, so skipping job!
+1 . processing job with title Stylist - Barber from company Great Clips
+        adding greatclips to checked_companies
+        company Great Clips Inc. found in API, so trying to add to DB!
+mismatch between names, c_api: Great Clips Inc. j_api: Great Clips
+populating data for company Great Clips Inc.
+        now trying to add JOB Stylist - Barber to database for company Great Clips
+        company not found in database, so skipping job!
+1 . processing job with title Salon Stylist from company Great Clips
+        now trying to add JOB Salon Stylist to database for company Great Clips
+        company not found in database, so skipping job!
+1 . processing job with title Stylist - Barber from company Great Clips
+        now trying to add JOB Stylist - Barber to database for company Great Clips
+        company not found in database, so skipping job!
+1 . processing job with title Study Coordinator from company Actalent
+        now trying to add JOB Study Coordinator to database for company Actalent
+        company not found in database, so skipping job!
+1 . processing job with title Registered Dietitian Renal from company FRESENIUS
+        now trying to add JOB Registered Dietitian Renal to database for company FRESENIUS
+        company not found in database, so skipping job!
+1 . processing job with title Registered Nurse - RN -Chatham from company FRESENIUS
+        now trying to add JOB Registered Nurse - RN -Chatham to database for company FRESENIUS
+        company not found in database, so skipping job!
+1 . processing job with title Sr. Engineer, Vision Systems from company BAXTER
+        adding baxter to checked_companies
+Traceback (most recent call last):
+  File "/Users/savvy/Documents/class/swe/chi-works/back-end/app.py", line 1, in <module>
+    from init import app
+  File "/Users/savvy/Documents/class/swe/chi-works/back-end/init.py", line 25, in <module>
+    populate()
+  File "/Users/savvy/Documents/class/swe/chi-works/back-end/database/populate.py", line 9, in populate
+    populate_jobs_and_employers()
+  File "/Users/savvy/Documents/class/swe/chi-works/back-end/database/populate.py", line 23, in populate_jobs_and_employers
+    print("\tcompany " + comp_data['name'] + " found in API, so trying to add to DB!")
+          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+
+2 . processing job with title الرغبة مساعدة في دراسة اللغة من مؤهل مدرس from company Preply
+        adding preply to checked_companies
+        company Preply found in API, so trying to add to DB!
+                populating data for company Preply
+        now trying to add JOB الرغبة مساعدة في دراسة اللغة من مؤهل مدرس to database for company Preply
+        company found in database, so adding JOB!
+2 . processing job with title Recruiter from company Beacon Hill Staffing Group, LLC
+        adding beaconhillstaffinggroup,llc to checked_companies
+2 . processing job with title Receptionist from company TEAM DENTAL FAMILY DENTISTRY
+        adding teamdentalfamilydentistry to checked_companies
+2 . processing job with title Caregiver from company CareLinx by Sharecare
+        adding carelinxbysharecare to checked_companies
+2 . processing job with title Cook from company The Crab Pad
+        adding thecrabpad to checked_companies
+2 . processing job with title Recruiter from company Beacon Hill Staffing Group, LLC
+        now trying to add JOB Recruiter to database for company Beacon Hill Staffing Group, LLC
+        company not found in database, so skipping job!
+2 . processing job with title APP from company Shirley Ryan AbilityLab
+        adding shirleyryanabilitylab to checked_companies
+2 . processing job with title Controller from company Robert Half
+        adding roberthalf to checked_companies
+        company Robert HaIf Executive found in API, so trying to add to DB!
+                mismatch between names, c_api: Robert HaIf Executive j_api: Robert Half
+                populating data for company Robert HaIf Executive
+        now trying to add JOB Controller to database for company Robert Half
+        company found in database, so adding JOB!
+2 . processing job with title Controller from company Robert Half
+        now trying to add JOB Controller to database for company Robert Half
+        company found in database, so adding JOB!
+2 . processing job with title Bookkeeper from company Robert Half
+        now trying to add JOB Bookkeeper to database for company Robert Half
+        company found in database, so adding JOB!
+2 . processing job with title Dishwasher from company First Watch Restaurants, Inc.
+        adding firstwatchrestaurants,inc. to checked_companies
+2 . processing job with title Cook from company First Watch Restaurants, Inc.
+        now trying to add JOB Cook to database for company First Watch Restaurants, Inc.
+        company not found in database, so skipping job!
+2 . processing job with title Server from company Uncle Julio's
+        adding unclejulio's to checked_companies
+2 . processing job with title Receptionist from company Adecco
+        adding adecco to checked_companies
+        company Adecco found in API, so trying to add to DB!
+                populating data for company Adecco
+        now trying to add JOB Receptionist to database for company Adecco
+        company found in database, so adding JOB!
+2 . processing job with title Busser from company ASH gastropub
+        adding ashgastropub to checked_companies
+2 . processing job with title Dishwasher from company ASH gastropub
+        now trying to add JOB Dishwasher to database for company ASH gastropub
+        company not found in database, so skipping job!
+2 . processing job with title Cook from company ASH gastropub
+        now trying to add JOB Cook to database for company ASH gastropub
+        company not found in database, so skipping job!
+2 . processing job with title Controller from company SPAAN Tech Inc.
+        adding spaantechinc. to checked_companies
+2 . processing job with title Utility from company NAC
+        adding nac to checked_companies
+2 . processing job with title Electrician from company Perpetual Labor Sourcing LLC
+        adding perpetuallaborsourcingllc to checked_companies
+3 . processing job with title Server from company Carnivore & The Queen
+        adding carnivore&thequeen to checked_companies
+3 . processing job with title Host from company Carnivore & The Queen
+        now trying to add JOB Host to database for company Carnivore & The Queen
+        company not found in database, so skipping job!
+3 . processing job with title Maintenance Manager from company CyberCoders
+        adding cybercoders to checked_companies
+        company CyberCoders found in API, so trying to add to DB!
+                populating data for company CyberCoders
+        now trying to add JOB Maintenance Manager to database for company CyberCoders
+        company found in database, so adding JOB!
+3 . processing job with title Director of Development from company Northwest Side Housing Center
+        adding northwestsidehousingcenter to checked_companies
+3 . processing job with title UI Architect from company The Select Group
+        adding theselectgroup to checked_companies
+        company Select Group found in API, so trying to add to DB!
+                mismatch between names, c_api: Select Group j_api: The Select Group
+                populating data for company Select Group
+        now trying to add JOB UI Architect to database for company The Select Group
+        company found in database, so adding JOB!
+4 . processing job with title Staff Accountant from company Beacon Hill Staffing Group, LLC
+        adding beaconhillstaffinggroup,llc to checked_companies
+4 . processing job with title HR Generalist from company Robert Half
+        adding roberthalf to checked_companies
+        company Robert HaIf Executive found in API, so trying to add to DB!
+                mismatch between names, c_api: Robert HaIf Executive j_api: Robert Half
+                company already in database, so skipping!
+        now trying to add JOB HR Generalist to database for company Robert Half
+        company found in database, so adding JOB!
+4 . processing job with title EHS Manager from company The Judge Group
+        adding thejudgegroup to checked_companies
+4 . processing job with title Property Administrator from company Beacon Hill Staffing Group, LLC
+        now trying to add JOB Property Administrator to database for company Beacon Hill Staffing Group, LLC
+        company not found in database, so skipping job!
+skipping job with no title or company
+4 . processing job with title Billing Coordinator from company Tandym Group
+        adding tandymgroup to checked_companies
+        company Tandym Group found in API, so trying to add to DB!
+                populating data for company Tandym Group
+        now trying to add JOB Billing Coordinator to database for company Tandym Group
+        company found in database, so adding JOB!
+4 . processing job with title Senior Accountant from company Robert Half
+        now trying to add JOB Senior Accountant to database for company Robert Half
+        company found in database, so adding JOB!
+4 . processing job with title Property Accountant from company Beacon Hill Staffing Group, LLC
+        now trying to add JOB Property Accountant to database for company Beacon Hill Staffing Group, LLC
+        company not found in database, so skipping job!
+4 . processing job with title Machine Operator from company Upper Deck Staffing Pro
+        adding upperdeckstaffingpro to checked_companies
+skipping job with title Senior Accountant because it already exists in the database
+4 . processing job with title Manufacturing Engineer from company Manpower Engineering
+        adding manpowerengineering to checked_companies
+skipping job with title Senior Accountant because it already exists in the database
+4 . processing job with title Executive Assistant from company Robert Half
+        now trying to add JOB Executive Assistant to database for company Robert Half
+        company found in database, so adding JOB!
+4 . processing job with title Supply Planner from company True Value
+        adding truevalue to checked_companies
+        company Truevalue found in API, so trying to add to DB!
+                mismatch between names, c_api: Truevalue j_api: True Value
+                populating data for company Truevalue
+        now trying to add JOB Supply Planner to database for company True Value
+        company found in database, so adding JOB!
+4 . processing job with title Sr. Accountant from company Robert Half
+        now trying to add JOB Sr. Accountant to database for company Robert Half
+        company found in database, so adding JOB!
+4 . processing job with title Audit Manager from company WeCare Staffing Solutions
+        adding wecarestaffingsolutions to checked_companies
+4 . processing job with title Salesforce Administrator from company Force Smiths
+        adding forcesmiths to checked_companies
+4 . processing job with title Salesforce Architect from company Force Smiths
+        now trying to add JOB Salesforce Architect to database for company Force Smiths
+        company not found in database, so skipping job!
+4 . processing job with title Finance Manager from company Robert Half
+        now trying to add JOB Finance Manager to database for company Robert Half
+        company found in database, so adding JOB!
+4 . processing job with title Medical Assistant from company The Judge Group
+        now trying to add JOB Medical Assistant to database for company The Judge Group
+        company not found in database, so skipping job!
+skipping job with title Senior Accountant because it already exists in the database
+5 . processing job with title Shift Supervisor from company Corner Bakery Cafe
+        adding cornerbakerycafe to checked_companies
+5 . processing job with title Facilities Director from company Beacon Hill Staffing Group, LLC
+        now trying to add JOB Facilities Director to database for company Beacon Hill Staffing Group, LLC
+        company not found in database, so skipping job!
+5 . processing job with title Fund Controller from company Robert Half
+        now trying to add JOB Fund Controller to database for company Robert Half
+        company found in database, so adding JOB!
+skipping job with title Executive Assistant because it already exists in the database
+5 . processing job with title Accounting Manager from company Creative Financial Staffing
+        adding creativefinancialstaffing to checked_companies
+5 . processing job with title Licensed Plumber from company GC Realty & Development, LLC
+        adding gcrealty&development,llc to checked_companies
+5 . processing job with title Packer from company Purpose Workforce Solutions
+        adding purposeworkforcesolutions to checked_companies
+5 . processing job with title Estimator (FC) from company iLink Resources, Inc.
+        adding ilinkresources,inc. to checked_companies
+5 . processing job with title Administrative Manager from company Institute for Responsive Government
+        adding instituteforresponsivegovernment to checked_companies
+5 . processing job with title Tax Manager from company Robert Half
+        now trying to add JOB Tax Manager to database for company Robert Half
+        company found in database, so adding JOB!
+5 . processing job with title Office Manager from company Robert Half
+        now trying to add JOB Office Manager to database for company Robert Half
+        company found in database, so adding JOB!
+skipping job with title Tax Manager because it already exists in the database
+5 . processing job with title Host/Hostess from company SABRINA'S CAFE
+        adding sabrina'scafe to checked_companies
+skipping job with title Sr. Accountant because it already exists in the database
+5 . processing job with title Payroll Manager from company Robert Half
+        now trying to add JOB Payroll Manager to database for company Robert Half
+        company found in database, so adding JOB!
+5 . processing job with title Product Controller from company Robert Half
+        now trying to add JOB Product Controller to database for company Robert Half
+        company found in database, so adding JOB!
+5 . processing job with title Teacher And Teacher Assistants from company Diana's Playpen of Little Geniuses
+        adding diana'splaypenoflittlegeniuses to checked_companies
+5 . processing job with title Childcare Worker from company Laughs And Giggles Childrens Academy INC
+        adding laughsandgiggleschildrensacademyinc to checked_companies
+5 . processing job with title Administrative Assistant from company Beacon Hill Staffing Group, LLC
+        now trying to add JOB Administrative Assistant to database for company Beacon Hill Staffing Group, LLC
+        company not found in database, so skipping job!
+6 . processing job with title Billing Clerk from company Robert Half
+        now trying to add JOB Billing Clerk to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Assistant Controller from company Robert Half
+        now trying to add JOB Assistant Controller to database for company Robert Half
+        company found in database, so adding JOB!
+skipping job with title Tax Manager because it already exists in the database
+skipping job with title Sr. Accountant because it already exists in the database
+6 . processing job with title Systems Engineer from company Robert Half
+        now trying to add JOB Systems Engineer to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Infant Teacher from company Diana's Playpen of Little Geniuses
+        now trying to add JOB Infant Teacher to database for company Diana's Playpen of Little Geniuses
+        company not found in database, so skipping job!
+6 . processing job with title VP of Accounting from company Robert Half
+        now trying to add JOB VP of Accounting to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Fund Accountant from company Robert Half
+        now trying to add JOB Fund Accountant to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Accounting Manager from company Robert Half
+        now trying to add JOB Accounting Manager to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Account Executive from company INTERNATIONAL STAFFING CONSULTANTS
+        adding internationalstaffingconsultants to checked_companies
+skipping job with no title or company
+6 . processing job with title Lead Auditor from company Robert Half
+        now trying to add JOB Lead Auditor to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Systems Administrator from company Robert Half
+        now trying to add JOB Systems Administrator to database for company Robert Half
+        company found in database, so adding JOB!
+6 . processing job with title Accountant I - Accounting and Reporting from company Robert Half
+        now trying to add JOB Accountant I - Accounting and Reporting to database for company Robert Half
+        company found in database, so adding JOB!
+skipping job with title Executive Assistant because it already exists in the database
+6 . processing job with title Java Developer from company The Judge Group
+        now trying to add JOB Java Developer to database for company The Judge Group
+        company not found in database, so skipping job!
+6 . processing job with title Accounting Associate from company Robert Half
+        now trying to add JOB Accounting Associate to database for company Robert Half
+        company found in database, so adding JOB!
+skipping job with title Senior Accountant because it already exists in the database
+skipping job with title Assistant Controller because it already exists in the database
+skipping job with title Executive Assistant because it already exists in the database
+7 . processing job with title Team Lead from company Walmart
+        adding walmart to checked_companies
+        company Walmart found in API, so trying to add to DB!
+                populating data for company Walmart
+        now trying to add JOB Team Lead to database for company Walmart
+        company found in database, so adding JOB!
+skipping job with title Accounting Manager because it already exists in the database
+7 . processing job with title Material Handler from company Cortech
+        adding cortech to checked_companies
+        company JobsRUs.com found in API, so trying to add to DB!
+                mismatch between names, c_api: JobsRUs.com j_api: Cortech
+                populating data for company JobsRUs.com
+        now trying to add JOB Material Handler to database for company Cortech
+        company found in database, so adding JOB!
+7 . processing job with title AML Associate from company ICONMA
+        adding iconma to checked_companies
+        company ICONMA found in API, so trying to add to DB!
+                populating data for company ICONMA
+        now trying to add JOB AML Associate to database for company ICONMA
+        company found in database, so adding JOB!
+7 . processing job with title Forklift Operator from company Manpower
+        adding manpower to checked_companies
+7 . processing job with title Parts Delivery from company O'Reilly Auto Parts
+        adding o'reillyautoparts to checked_companies
+7 . processing job with title Administrative Assistant from company Beacon Hill Staffing Group, LLC
+        now trying to add JOB Administrative Assistant to database for company Beacon Hill Staffing Group, LLC
+        company not found in database, so skipping job!
+7 . processing job with title Cupcake Server from company Molly's Cupcakes RiverEast
+        adding molly'scupcakesrivereast to checked_companies
+skipping job with title Executive Assistant because it already exists in the database
+7 . processing job with title Production Manager from company Southern Recruiting Solutions, Inc.
+        adding southernrecruitingsolutions,inc. to checked_companies
+skipping job with no title or company
+skipping job with title Office Manager because it already exists in the database
+7 . processing job with title InternalApplyNoScreener from company Careerbuilder-US
+        adding careerbuilder-us to checked_companies
+7 . processing job with title Developmental Therapist from company Blue Bird Day LLC
+        adding bluebirddayllc to checked_companies
+7 . processing job with title Project Accountant from company CyberCoders
+        adding cybercoders to checked_companies
+        company CyberCoders found in API, so trying to add to DB!
+                company already in database, so skipping!
+        now trying to add JOB Project Accountant to database for company CyberCoders
+        company found in database, so adding JOB!
+7 . processing job with title Staff Accountant from company Communities United (Chicago)
+        adding communitiesunited(chicago) to checked_companies
+7 . processing job with title Administrative Assistant I from company SEIU Local 73
+        adding seiulocal73 to checked_companies
+7 . processing job with title Financial Consultant from company Arbor Financial Advisors, LLC
+        adding arborfinancialadvisors,llc to checked_companies
+7 . processing job with title Internal Auditor from company Robert Half
+        now trying to add JOB Internal Auditor to database for company Robert Half
+        company found in database, so adding JOB!
+7 . processing job with title EHS Manager from company The Judge Group
+        now trying to add JOB EHS Manager to database for company The Judge Group
+        company not found in database, so skipping job!
+8 . processing job with title Manufacturing Engineer from company The Judge Group
+        now trying to add JOB Manufacturing Engineer to database for company The Judge Group
+        company not found in database, so skipping job!
+8 . processing job with title Locum Physician from company The Judge Group
+        now trying to add JOB Locum Physician to database for company The Judge Group
+        company not found in database, so skipping job!
+8 . processing job with title Regional Manager from company Diversified Maintenance Systems, LLC
+        adding diversifiedmaintenancesystems,llc to checked_companies
+8 . processing job with title Asterisk Developer from company Robert Half
+        now trying to add JOB Asterisk Developer to database for company Robert Half
+        company found in database, so adding JOB!
+8 . processing job with title Corporate Paralegal from company Careerbuilder-US
+        now trying to add JOB Corporate Paralegal to database for company Careerbuilder-US
+        company not found in database, so skipping job!
+8 . processing job with title Collections Specialist from company Robert Half
+        now trying to add JOB Collections Specialist to database for company Robert Half
+        company found in database, so adding JOB!
+8 . processing job with title VP, Tax from company Robert Half
+        now trying to add JOB VP, Tax to database for company Robert Half
+        company found in database, so adding JOB!
+8 . processing job with title RPA Developer from company Capgemini Government Solutions
+        adding capgeminigovernmentsolutions to checked_companies
+8 . processing job with title Procurement Specialist from company The Judge Group
+        now trying to add JOB Procurement Specialist to database for company The Judge Group
+        company not found in database, so skipping job!
+8 . processing job with title Intake Coordinator from company Shirley Ryan AbilityLab
+        adding shirleyryanabilitylab to checked_companies
+8 . processing job with title iOS Developer from company Robert Half
+        now trying to add JOB iOS Developer to database for company Robert Half
+        company found in database, so adding JOB!
+skipping job with no title or company
+8 . processing job with title Project Accountant for $50M-$90M projects! from company CyberCoders
+        now trying to add JOB Project Accountant for $50M-$90M projects! to database for company CyberCoders
+        company found in database, so adding JOB!
+8 . processing job with title Production Manager from company The Judge Group
+        now trying to add JOB Production Manager to database for company The Judge Group
+        company not found in database, so skipping job!
+8 . processing job with title Home Therapy Dialysis Registered Nurse from company FRESENIUS
+        adding fresenius to checked_companies
+        company Hochschule Fresenius found in API, so trying to add to DB!
+                mismatch between names, c_api: Hochschule Fresenius j_api: FRESENIUS
+                company already in database, so skipping!
+        now trying to add JOB Home Therapy Dialysis Registered Nurse to database for company FRESENIUS
+        company found in database, so adding JOB!
+8 . processing job with title Licensed Practical Nurse (LPN/LVN) from company Biolife Plasma Services
+        adding biolifeplasmaservices to checked_companies
+        company BioLife Plasma Services found in API, so trying to add to DB!
+                mismatch between names, c_api: BioLife Plasma Services j_api: Biolife Plasma Services
+                populating data for company BioLife Plasma Services
+        now trying to add JOB Licensed Practical Nurse (LPN/LVN) to database for company Biolife Plasma Services
+        company found in database, so adding JOB!
+8 . processing job with title Policy Analyst from company Center for Early Learning Funding Equity
+        adding centerforearlylearningfundingequity to checked_companies
+        company Center for Early Learning Funding Equity found in API, so trying to add to DB!
+                populating data for company Center for Early Learning Funding Equity
+        now trying to add JOB Policy Analyst to database for company Center for Early Learning Funding Equity
+        company found in database, so adding JOB!
+8 . processing job with title Marketing Manager from company Goodman Theatre
+        adding goodmantheatre to checked_companies
+skipping job with title Accounting Manager because it already exists in the database
+8 . processing job with title Junior Accountant from company Michael Page
+        adding michaelpage to checked_companies
+skipping job with title Senior Accountant because it already exists in the database
+9 . processing job with title Pump Mechanics from company FlexTrades
+        adding flextrades to checked_companies
+        company FlexTrades found in API, so trying to add to DB!
+                company already in database, so skipping!
+        now trying to add JOB Pump Mechanics to database for company FlexTrades
+        company found in database, so adding JOB!
+9 . processing job with title Accounting Coordinator from company Creative Financial Staffing
+        now trying to add JOB Accounting Coordinator to database for company Creative Financial Staffing
+        company not found in database, so skipping job!
+9 . processing job with title AOI Inspector from company FlexTrades
+        now trying to add JOB AOI Inspector to database for company FlexTrades
+        company found in database, so adding JOB!
+9 . processing job with title Production Engineer from company Southern Recruiting Solutions, Inc.
+        now trying to add JOB Production Engineer to database for company Southern Recruiting Solutions, Inc.
+        company not found in database, so skipping job!
+9 . processing job with title Precision Grinders from company FlexTrades
+        now trying to add JOB Precision Grinders to database for company FlexTrades
+        company found in database, so adding JOB!
+9 . processing job with title Maintenance Technician from company FlexTrades
+        now trying to add JOB Maintenance Technician to database for company FlexTrades
+        company found in database, so adding JOB!
+9 . processing job with title Case Manager from company Austin Coming Together
+        adding austincomingtogether to checked_companies
+9 . processing job with title Field Manager from company Charter Home Alliance LLC
+        adding charterhomealliancellc to checked_companies
+9 . processing job with title Sr. Estimator from company CyberCoders
+        now trying to add JOB Sr. Estimator to database for company CyberCoders
+        company found in database, so adding JOB!
+skipping job with title Executive Assistant because it already exists in the database
+9 . processing job with title Preschool Teacher from company Children's Lighthouse North Center Chicago
+        adding children'slighthousenorthcenterchicago to checked_companies
+9 . processing job with title Recruiter from company Farmers Insurance - Greater Chicago
+        adding farmersinsurance-greaterchicago to checked_companies
+9 . processing job with title Line Cook from company ASH gastropub
+        adding ashgastropub to checked_companies
+9 . processing job with title Food Runner from company ASH gastropub
+        now trying to add JOB Food Runner to database for company ASH gastropub
+        company not found in database, so skipping job!
+9 . processing job with title Host / Hostess from company Uncle Julio's
+        adding unclejulio's to checked_companies
+9 . processing job with title Shelter Manager from company The Workforce Group
+        adding theworkforcegroup to checked_companies
+9 . processing job with title District Manager from company Store Space Self Storage
+        adding storespaceselfstorage to checked_companies
+9 . processing job with title Forklift Operators from company Elite Staffing Inc.
+        adding elitestaffinginc. to checked_companies
+9 . processing job with title Dishwasher from company Sociale
+        adding sociale to checked_companies
+        company Sociale found in API, so trying to add to DB!
+                populating data for company Sociale
+        now trying to add JOB Dishwasher to database for company Sociale
+        company found in database, so adding JOB!

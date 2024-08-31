@@ -1,0 +1,186 @@
+{
+    "sortParams": {
+        "Jobs": {
+            "Job Title (A→Z)": "?sortBy=title",
+            "Job Title (Z→A)": "?sortBy=title&isDesc=true",
+            "Last Updated (New → Old)": "?sortBy=last_updated&isDesc=true",
+            "Last Updated (Old → New)": "?sortBy=last_updated",
+            "Employer Name (A→Z)": "?sortBy=employer_name",
+            "Employer Name (Z→A)": "?sortBy=employer_name&isDesc=true"
+        },
+        "Employers": {
+            "Employer Name (A→Z)": "?sortBy=name",
+            "Employer Name (Z→A)": "?sortBy=name&isDesc=true",
+            "Industry (A→Z)": "?sortBy=industry",
+            "Industry (Z→A)": "?sortBy=industry&isDesc=true",
+            "Size (Small → Large)": "?sortBy=size",
+            "Size (Large → Small)": "?sortBy=size&isDesc=true",
+            "HQ Location (A→Z)": "?sortBy=hq_location",
+            "HQ Location (Z→A)": "?sortBy=hq_location&isDesc=true",
+            "Company Type (A→Z)": "?sortBy=company_type",
+            "Company Type (Z→A)": "?sortBy=company_type&isDesc=true"
+        },
+        "Resources": {
+            "Names (A→Z)": "?sortBy=name",
+            "Names (Z→A)": "?sortBy=name&isDesc=true",
+            "Instructor (A→Z)": "?sortBy=instructor",
+            "Instructor (Z→A)": "?sortBy=instructor&isDesc=true",
+            "Locale (A→Z)": "?sortBy=locale",
+            "Locale (Z→A)": "?sortBy=locale&isDesc=true"
+        }
+    },
+    "filterParams": {
+        "Jobs": [
+            {
+                "name": "Job Type",
+                "items": [
+                    {
+                        "name": "Full Time",
+                        "query": "jobType=Full-time"
+                    },
+                    {
+                        "name": "Part Time",
+                        "query": "jobType=Part-time"
+                    }
+                ]
+            }, 
+            {
+                "name": "Skills",
+                "items": [
+                    {
+                        "name": "Budgeting",
+                        "query": "skill=Budgeting"
+                    },
+                    {
+                        "name": "Leadership",
+                        "query": "skill=Leadership"
+                    },
+                    {
+                        "name": "Communication",
+                        "query": "skill=Communication"
+                    },
+                    {
+                        "name": "Networking",
+                        "query": "skill=Networking"
+                    },
+                    {
+                        "name": "DevOps",
+                        "query": "skill=DevOps"
+                    },
+                    {
+                        "name": "SQL",
+                        "query": "skill=SQL" 
+                    }
+                ]
+            },
+            {
+                "name": "Last Updated",
+                "items": [
+                    {
+                        "name": "September 2023 onwards",
+                        "query": "lastUpdated=2023-09-01T00:00:00"
+                    },
+                    {
+                        "name": "October 2023 onwards",
+                        "query": "lastUpdated=2023-10-01T00:00:00"
+                    }      
+                ]
+                
+            }
+        ],
+        "Employers": [
+            {
+                "name": "HQ Location",
+                "items": [
+                    {
+                        "name": "Chicago",
+                        "query": "hqLocation=Chicago,%20IL&hqLocation=Chicago,%20Illinois"
+                    },
+                    {
+                        "name": "New York",
+                        "query": "hqLocation=New%20York&hqLocation=New%20York,%20New%20York"
+                    },
+                    {
+                        "name": "California",
+                        "query": "hqLocation=Oakland,%20California&hqLocation=Newport%20Beach,%20California&hqLocation=Fremont,%20California"
+                    },
+                    {
+                        "name": "Unknown",
+                        "query": "hqLocation=Unknown"
+                    }
+                ]
+            },
+            {
+                "name": "Size",
+                "items": [
+                    {
+                        "name": "Small",
+                        "query": "sizeMin=0&sizeMax=50"
+                    },
+                    {
+                        "name": "Medium",
+                        "query": "sizeMin=50&sizeMax=90"
+                    },
+                    {
+                        "name": "Large",
+                        "query": "sizeMin=100"
+                    }
+                ]
+            },      
+            {
+                "name": "Industry",
+                "items": [
+                    {
+                        "name": "Staffing and Recruiting",
+                        "query": "industry=Staffing%20and%20Recruiting"
+                    }
+                ]
+            }
+        ],
+        "Resources": [
+            {
+                "name": "Max Price",
+                "items": [
+                    {
+                        "name": "Free",
+                        "query": "maxPrice=free"
+                    }
+                ]
+            },
+            {
+                "name": "Locale",
+                "items": [
+                    {
+                        "name": "US English",
+                        "query": "locale=English%20(US)"
+                    },
+                    {
+                        "name": "UK English",
+                        "query": "locale=English%20(UK)"
+                    },
+                    {
+                        "name": "Indian English",
+                        "query": "locale=English%20(India)"
+                    }
+                ]
+            },
+            {
+                "name": "Skills Taught",
+                "items": [
+                    {
+                        "name": "SQL",
+                        "query": "instructor=Max%20SQL&instructor=Sagar%20Uppuluri&instructor=Rakesh%20Gopalakrishnan"
+                    },
+                    {
+                        "name": "Public Speaking",
+                        "query": "instructor=Keino%20Campbell,%20Esq.&instructor=Logus%20Academy&instructor=Nikola%20Panajotovikj&instructor=Sandra%2011Percent&instructor=Scott%20Mendoza&instructor=Expert%20Academy"
+                    },
+                    {
+                        "name": "AI & Prompt Engineering",
+                        "query": "instructor=Jose%20Portilla&instructor=Marlene%20Konu&instructor=Diego%20Davila&instructor=Julian%20Goldie&instructor=Programming%20Hub&instructor=Andrii%20Piatkha&instructor=Phil%20Ebiner"
+                    }
+                ]
+            }
+        ]
+    }
+}
