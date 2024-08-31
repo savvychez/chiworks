@@ -8,9 +8,9 @@
 //         value: str
 //     ]}
 
-import employers from '../../data/test_employers.json';
-import jobs from '../../data/test_jobs.json';
-import resources from '../../data/test_resources.json';
+// import employers from '../../data/test_employers.json';
+// import jobs from '../../data/test_jobs.json';
+// import resources from '../../data/test_resources.json';
 import { formatJobData, formatEmployerData, formatResourceData } from './helpers';
 import axios from 'axios';
 import config from './config.json'
