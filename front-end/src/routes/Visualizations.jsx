@@ -16,7 +16,7 @@ function GetGraph1Data() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://api.chiworks.me/employers");
+        const response = await axios.get("https://chiworksapi.svv.sh/employers");
         const responseData = response.data;
 
         // Categorize companies based on their size thresholds
@@ -95,7 +95,7 @@ function GetGraph2Data() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const empResponse = await axios.get("https://api.chiworks.me/employers");
+        const empResponse = await axios.get("https://chiworksapi.svv.sh/employers");
         const eRD = empResponse.data;
 
         const sdata = [];
@@ -103,7 +103,7 @@ function GetGraph2Data() {
         for (const company of eRD) {
           const id = company.id;
           try {
-            const empSpec = await axios.get(`https://api.chiworks.me/employers/${id}`);
+            const empSpec = await axios.get(`https://chiworksapi.svv.sh/employers/${id}`);
             const jobs = empSpec.data.jobs;
 
             let numJobs = jobs.length;
@@ -190,7 +190,7 @@ function GetGraph3Data() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://api.chiworks.me/jobs");
+        const response = await axios.get("https://chiworksapi.svv.sh/jobs");
         const responseData = response.data;
         let globalSkills = {};
 
