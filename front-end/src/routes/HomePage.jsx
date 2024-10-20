@@ -17,8 +17,8 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 
 const HomePage = () => {
     return (
-        <div className='pt-32 lg:pt-60'>
-            <div className='px-20  min-w-full flex flex-col-reverse lg:px-40 lg:flex-row items-center justify-between  '>
+        <div className='flex items-center min-h-screen'>
+            <div className='px-20 min-w-full flex flex-col-reverse lg:px-40 lg:flex-row items-center justify-between'>
                 <div className='flex flex-col mt-8'>
                     <h1 className='block text-white text-5xl font-serif font-bold text-center lg:text-start'>chiworks</h1>
                     <p className='block text-white text-lg lg:text-2xl font-sans my-3 text-center lg:text-start w-full'>your guide to working in the<br />windy city</p>
